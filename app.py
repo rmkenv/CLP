@@ -10,7 +10,7 @@ def main():
 # Input GitHub GeoJSON URL
 geojson_url = st.text_input("https://raw.githubusercontent.com/rmkenv/CLP/main/clp_fc.geojson")
  # Fetch GeoJSON data
-    if geojson_url:
+ if geojson_url:
         response = requests.get(geojson_url)
         if response.status_code == 200:
             geojson_data = response.json()
