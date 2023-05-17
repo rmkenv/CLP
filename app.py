@@ -1,3 +1,7 @@
+#Install Python Libs
+pip install streamlit
+pip install geopandas
+pip install foliumn
 #Import Python Libs
 import streamlit as st
 import requests
